@@ -3,10 +3,10 @@ import { Text, View, StyleSheet } from 'react-native';
 import {StatusBar} from 'expo-status-bar';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
-import StarMap from './screens/StarMap';
-import DaliyPic from './screens/DaliyPic' 
-import SpaceCraft from './screens/SpaceCraft';
-import HomeScreen from './screens/HomeScreen';
+import StarMap from './StarMap';
+import DaliyPic from './DaliyPic' 
+import SpaceCraft from './SpaceCraft';
+import HomeScreen from './HomeScreen';
 
 const Stack = createStackNavigator();
 
