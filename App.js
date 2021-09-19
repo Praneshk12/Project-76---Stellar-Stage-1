@@ -3,10 +3,10 @@ import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import {NavigationContainer} from '@react-navigation/native';
 import {createStackNavigator} from '@react-navigation/stack'
-import DailyScreen from "./DailyPic";
-import SpaceScreen from "./SpaceCrafts";
-import HomeScreen from "./Home";
-import StarScreen from "./StarMap";
+import DailyScreen from "./screens/DailyPic";
+import SpaceScreen from "./screens/SpaceCrafts";
+import HomeScreen from "./screens/Home";
+import StarScreen from "./screens/StarMap";
 
 const Stack = createStackNavigator();
 
