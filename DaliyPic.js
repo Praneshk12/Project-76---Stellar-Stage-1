@@ -1,15 +1,14 @@
 import * as React from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 
-
-export default class StarMap extends React.Component {
+export default class DaliyPic extends React.Component {
   render(){ 
     return (
       
    <View style={styles.container}>
     <Text>
-     StarMap    
-     </Text>
+     Daliy Pic
+    </Text>
    </View>
       
     );

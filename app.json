@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "pro-c76-stellar-stage-1",
-    "slug": "snack-c3ad941a-e4ef-402b-8119-2afa2c442e78",
+    "name": "pro-c77-stellar-stage-2",
+    "slug": "snack-74ec6782-3110-469e-ade2-1e8cbe599019",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -27,7 +27,6 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    },
-    "description": "Example usage"
+    }
   }
 }
