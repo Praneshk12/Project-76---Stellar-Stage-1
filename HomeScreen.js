@@ -18,9 +18,9 @@ export default class HomeScreen extends Component {
         return (
             <View style={styles.container}>
                 <SafeAreaView style={styles.droidSafeArea} />
-                <ImageBackground source={require('../assets/stars.gif')} style={styles.backgroundImage}>
+                <ImageBackground source={require('../stars.gif')} style={styles.backgroundImage}>
                     <View style={styles.titleBar}>
-                        <Image source={require("../assets/main-icon.png")} style={{ width: 150, height: 150 }}></Image>
+                        <Image source={require("../main-icon.png")} style={{ width: 150, height: 150 }}></Image>
                         <Text style={styles.titleText}>Stellar</Text>
                         <Text style={styles.titleText}>App</Text>
                     </View>
@@ -29,21 +29,21 @@ export default class HomeScreen extends Component {
                         this.props.navigation.navigate("SpaceCraft")
                     }>
                         <Text style={styles.routeText}>Space Crafts</Text>
-                        <Image source={require("../assets/space_crafts.png")} style={styles.routeImage}></Image>
+                        <Image source={require("../space_crafts.png")} style={styles.routeImage}></Image>
                     </TouchableOpacity>
 
                     <TouchableOpacity style={styles.routeCard} onPress={() =>
                         this.props.navigation.navigate("StarMap")
                     }>
                         <Text style={styles.routeText}>Star Map</Text>
-                        <Image source={require("../assets/star_map.png")} style={styles.routeImage}></Image>
+                        <Image source={require("../star_map.png")} style={styles.routeImage}></Image>
                     </TouchableOpacity>
 
                     <TouchableOpacity style={styles.routeCard} onPress={() =>
                         this.props.navigation.navigate("DailyPic")
                     }>
                         <Text style={styles.routeText}>Daily Pictures</Text>
-                        <Image source={require("../assets/daily_pictures.png")} style={styles.routeImage}></Image>
+                        <Image source={require("../daily_pictures.png")} style={styles.routeImage}></Image>
                     </TouchableOpacity>
                 </ImageBackground>
             </View>
